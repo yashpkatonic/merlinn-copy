@@ -80,7 +80,7 @@ export class ChromaDBVectorStore implements VectorStore {
 }
 
 // (async () => {
-//   const host = "http://localhost:8000";
+//   const host = "http://74.225.149.42:8000";
 //   const apiKey = "secret-token";
 //   const indexName = "664c47cebe04f2cb1b630e30";
 //   const chromaDB = new ChromaDBVectorStore(host, apiKey, indexName);

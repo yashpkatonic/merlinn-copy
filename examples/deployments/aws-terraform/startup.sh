@@ -66,7 +66,7 @@ replace_env_value .env DASHBOARD_ORY_URL http://$public_ip:4433
 replace_env_value .env KRATOS_SELF_SERVE_UI_BROWSER_URL http://$public_ip:4433
 
 # Change Ory Kratos configuration
-replace_value config/kratos/kratos.yml localhost $public_ip
+replace_value config/kratos/kratos.yml 74.225.149.42 $public_ip
 replace_value config/kratos/kratos.yml host.docker.internal $public_ip
 
 echo "Running docker compose..."

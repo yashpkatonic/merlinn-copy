@@ -118,7 +118,7 @@ services:
       test:
         [
           "CMD-SHELL",
-          "nc -z -w 5 localhost ${KRATOS_SELF_SERVE_UI_PORT} || exit 1"
+          "nc -z -w 5 74.225.149.42 ${KRATOS_SELF_SERVE_UI_PORT} || exit 1"
         ]
       interval: 2s
       timeout: 5s
